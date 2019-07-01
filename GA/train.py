@@ -29,7 +29,7 @@ def dnn(GA_fea_dim):
     SAVE_FREQ = 5
 
     #DATA_FILE_NAME = './data/acfgSSL_{}/'.format(NODE_FEATURE_DIM)
-    DATA_FILE_NAME = 'D:\\学习资料\\研二下\\test_0625\\GA\\result_json\\'
+    DATA_FILE_NAME = 'D:\\GA\\result_json\\'
     #SOFTWARE=('openssl-1.0.1f-', 'openssl-1.0.1u-')
     #SOFTWARE = ('openssl-1.0.1f-',)
     OPTIMIZATION=('-O0', '-O1','-O2','-O3')
@@ -38,7 +38,7 @@ def dnn(GA_fea_dim):
     VERSION=('v54',)
     '''
 
-    DATA_FILE_NAME = 'E:\研二下\\test0602\\'
+    DATA_FILE_NAME = 'E:\\test0602\\'
     # SOFTWARE = ('openssl-1.0.1f-',)  # 'openssl-1.0.1u-')
     OPTIMIZATION = ('-O0', '-O1', '-O2', '-O3',)
     # COMPILER = ('i586-linux', 'armeb-linux', 'mips-linux',)
@@ -53,9 +53,6 @@ def dnn(GA_fea_dim):
 
     #F_NAME = get_f_name(DATA_FILE_NAME, SOFTWARE, COMPILER,
     #        OPTIMIZATION, VERSION)
-
-    #F_NAME = ['E:\研二下\论文二期\好的项目\gcn-master\gcn\\test_data\server.json',
-    #          'E:\研二下\论文二期\好的项目\gcn-master\gcn\\test_data\server2.json']
 
     FUNC_NAME_DICT = get_f_dict(F_NAME)
      
