@@ -342,11 +342,11 @@ def  get_auc_epoch(model, graphs, classes, batch_size, i, load_data=None):
 
     diff = np.array(tot_diff)
     truth = np.array(tot_truth)
-    #f = open("E:\研二下\\test0602\\diff.txt",'w')
-    f = "E:\研二下\\test0602\\diff"
+
+    f = "E:\\test0602\\diff"
     f = f + '_' + str(i)
-    ##f2 = open("E:\研二下\\test0602\\truth.txt",'w')
-    f2 = "E:\研二下\\test0602\\truth.txt"
+
+    f2 = "E:\\test0602\\truth.txt"
     np.save(f, diff)
     np.save(f2,truth)
     '''
